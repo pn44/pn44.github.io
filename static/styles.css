@@ -1,0 +1,23 @@
+body {
+	background-image: url("bg.jpeg");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.white-translucent-bg {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.title-row-colorful {
+	color: red;
+	background-color: rgba(102, 51, 0, 0.75);
+	font-family: 'Alkatra', cursive;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+.navbar-cream-bg {
+    background-color: #cc9966;
+}
