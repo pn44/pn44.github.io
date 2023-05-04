@@ -19,6 +19,10 @@ body {
 	text-align: center;
 }
 
+.carousel-caption {
+	text-shadow: 2px 2px black;
+}
+
 .navbar-cream-bg {
     background-color: #cc9966;
 }
