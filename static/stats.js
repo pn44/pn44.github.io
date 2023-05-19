@@ -23,7 +23,7 @@ function write_content(pageid) {
 	.then((data) => {
 		document.getElementById("viewsbar").innerHTML = `
 			${data.views} views
-			<button class="btn btn-danger" id="likebtn" data-likes="${data.likes}" onclick="incr_like(${pageid})">❤️ (${data.likes})</button>
+			<button class="btn btn-danger" id="likebtn" data-likes="${data.likes}" onclick="incr_like(${pageid})">👍  (${data.likes})</button>
 		`
 	})
 }
